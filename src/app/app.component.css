@@ -1,0 +1,23 @@
+.toolbar {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    color: grey;
+}
+
+.count {
+    font-size: 5em;
+    margin: 0px;
+}
+
+button {
+    float: right;
+    margin-right: 5%;
+}

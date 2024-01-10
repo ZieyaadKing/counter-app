@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'counter-app';
+  title: string = 'Simple counter';
+  count: number = 0;
+
+  addOne() {
+    this.count++;
+  }
 }
